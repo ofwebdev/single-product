@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.icon-nav {
+    display: flex;
+    gap: 35px;
+}
+
+.icon-nav i {
+    cursor: pointer;
+}
+
+
+.big-banner-title {
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+
+.banner-caption p {
+    margin: 20px 0;
+}
+
+
+.brand-img-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* product collection  */
+
+.product-box {
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+.product-box img {
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.rating {
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.rating p {
+    margin: 0;
+    color: gary;
+    font-weight: bold;
+    ;
+}
+
+.product-description {
+    font-weight: bold;
+    color: #787885;
+    font-size: 14px;
+}
+
+/* footer  */
+footer {
+    background-color: #0A0826;
+    padding: 70px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+@media(max-width: 770px) {
+
+    .big-banner-title {
+        font-size: 22px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .brand-img-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        place-items: center;
+    }
+    .banner-caption{
+        text-align: center;
+    }
+
+}
